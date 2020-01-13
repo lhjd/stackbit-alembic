@@ -1,0 +1,17 @@
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+plugins:
+  - jekyll-sitemap
+  - jekyll-mentions
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-redirect-from
+  - jekyll-default-layout
+  - jekyll-feed
+  - jemoji
+url: 'https://mydomain.com'
+description: This is my new website
+paginate: 5
+paginate_path: 'blog/page:num'
